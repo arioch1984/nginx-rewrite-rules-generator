@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7FEBD181CD78035003F73DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEBD171CD78035003F73DB /* AppDelegate.swift */; };
+		A7FEBD1A1CD78035003F73DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEBD191CD78035003F73DB /* ViewController.swift */; };
+		A7FEBD1C1CD78035003F73DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FEBD1B1CD78035003F73DB /* Assets.xcassets */; };
+		A7FEBD1F1CD78035003F73DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FEBD1D1CD78035003F73DB /* Main.storyboard */; };
+		A7FEBD2A1CD78036003F73DB /* Nginx_Rewrite_generatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEBD291CD78036003F73DB /* Nginx_Rewrite_generatorTests.swift */; };
+		A7FEBD351CD78036003F73DB /* Nginx_Rewrite_generatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FEBD341CD78036003F73DB /* Nginx_Rewrite_generatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7FEBD261CD78036003F73DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7FEBD0C1CD78035003F73DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7FEBD131CD78035003F73DB;
+			remoteInfo = "Nginx Rewrite generator";
+		};
+		A7FEBD311CD78036003F73DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7FEBD0C1CD78035003F73DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7FEBD131CD78035003F73DB;
+			remoteInfo = "Nginx Rewrite generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7FEBD141CD78035003F73DB /* Nginx Rewrite generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nginx Rewrite generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FEBD171CD78035003F73DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7FEBD191CD78035003F73DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7FEBD1B1CD78035003F73DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FEBD1E1CD78035003F73DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7FEBD201CD78035003F73DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FEBD251CD78036003F73DB /* Nginx Rewrite generatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nginx Rewrite generatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FEBD291CD78036003F73DB /* Nginx_Rewrite_generatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nginx_Rewrite_generatorTests.swift; sourceTree = "<group>"; };
+		A7FEBD2B1CD78036003F73DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FEBD301CD78036003F73DB /* Nginx Rewrite generatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nginx Rewrite generatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FEBD341CD78036003F73DB /* Nginx_Rewrite_generatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nginx_Rewrite_generatorUITests.swift; sourceTree = "<group>"; };
+		A7FEBD361CD78036003F73DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FEBD111CD78035003F73DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FEBD221CD78036003F73DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FEBD2D1CD78036003F73DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7FEBD0B1CD78035003F73DB = {
+			isa = PBXGroup;
+			children = (
+				A7FEBD161CD78035003F73DB /* Nginx Rewrite generator */,
+				A7FEBD281CD78036003F73DB /* Nginx Rewrite generatorTests */,
+				A7FEBD331CD78036003F73DB /* Nginx Rewrite generatorUITests */,
+				A7FEBD151CD78035003F73DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FEBD151CD78035003F73DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEBD141CD78035003F73DB /* Nginx Rewrite generator.app */,
+				A7FEBD251CD78036003F73DB /* Nginx Rewrite generatorTests.xctest */,
+				A7FEBD301CD78036003F73DB /* Nginx Rewrite generatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FEBD161CD78035003F73DB /* Nginx Rewrite generator */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEBD171CD78035003F73DB /* AppDelegate.swift */,
+				A7FEBD191CD78035003F73DB /* ViewController.swift */,
+				A7FEBD1B1CD78035003F73DB /* Assets.xcassets */,
+				A7FEBD1D1CD78035003F73DB /* Main.storyboard */,
+				A7FEBD201CD78035003F73DB /* Info.plist */,
+			);
+			path = "Nginx Rewrite generator";
+			sourceTree = "<group>";
+		};
+		A7FEBD281CD78036003F73DB /* Nginx Rewrite generatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEBD291CD78036003F73DB /* Nginx_Rewrite_generatorTests.swift */,
+				A7FEBD2B1CD78036003F73DB /* Info.plist */,
+			);
+			path = "Nginx Rewrite generatorTests";
+			sourceTree = "<group>";
+		};
+		A7FEBD331CD78036003F73DB /* Nginx Rewrite generatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEBD341CD78036003F73DB /* Nginx_Rewrite_generatorUITests.swift */,
+				A7FEBD361CD78036003F73DB /* Info.plist */,
+			);
+			path = "Nginx Rewrite generatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FEBD131CD78035003F73DB /* Nginx Rewrite generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FEBD391CD78036003F73DB /* Build configuration list for PBXNativeTarget "Nginx Rewrite generator" */;
+			buildPhases = (
+				A7FEBD101CD78035003F73DB /* Sources */,
+				A7FEBD111CD78035003F73DB /* Frameworks */,
+				A7FEBD121CD78035003F73DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nginx Rewrite generator";
+			productName = "Nginx Rewrite generator";
+			productReference = A7FEBD141CD78035003F73DB /* Nginx Rewrite generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7FEBD241CD78036003F73DB /* Nginx Rewrite generatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FEBD3C1CD78036003F73DB /* Build configuration list for PBXNativeTarget "Nginx Rewrite generatorTests" */;
+			buildPhases = (
+				A7FEBD211CD78036003F73DB /* Sources */,
+				A7FEBD221CD78036003F73DB /* Frameworks */,
+				A7FEBD231CD78036003F73DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FEBD271CD78036003F73DB /* PBXTargetDependency */,
+			);
+			name = "Nginx Rewrite generatorTests";
+			productName = "Nginx Rewrite generatorTests";
+			productReference = A7FEBD251CD78036003F73DB /* Nginx Rewrite generatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7FEBD2F1CD78036003F73DB /* Nginx Rewrite generatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FEBD3F1CD78036003F73DB /* Build configuration list for PBXNativeTarget "Nginx Rewrite generatorUITests" */;
+			buildPhases = (
+				A7FEBD2C1CD78036003F73DB /* Sources */,
+				A7FEBD2D1CD78036003F73DB /* Frameworks */,
+				A7FEBD2E1CD78036003F73DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FEBD321CD78036003F73DB /* PBXTargetDependency */,
+			);
+			name = "Nginx Rewrite generatorUITests";
+			productName = "Nginx Rewrite generatorUITests";
+			productReference = A7FEBD301CD78036003F73DB /* Nginx Rewrite generatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FEBD0C1CD78035003F73DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Fabio Brunelli";
+				TargetAttributes = {
+					A7FEBD131CD78035003F73DB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A7FEBD241CD78036003F73DB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A7FEBD131CD78035003F73DB;
+					};
+					A7FEBD2F1CD78036003F73DB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A7FEBD131CD78035003F73DB;
+					};
+				};
+			};
+			buildConfigurationList = A7FEBD0F1CD78035003F73DB /* Build configuration list for PBXProject "Nginx Rewrite generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7FEBD0B1CD78035003F73DB;
+			productRefGroup = A7FEBD151CD78035003F73DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FEBD131CD78035003F73DB /* Nginx Rewrite generator */,
+				A7FEBD241CD78036003F73DB /* Nginx Rewrite generatorTests */,
+				A7FEBD2F1CD78036003F73DB /* Nginx Rewrite generatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7FEBD121CD78035003F73DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FEBD1C1CD78035003F73DB /* Assets.xcassets in Resources */,
+				A7FEBD1F1CD78035003F73DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FEBD231CD78036003F73DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FEBD2E1CD78036003F73DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FEBD101CD78035003F73DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FEBD1A1CD78035003F73DB /* ViewController.swift in Sources */,
+				A7FEBD181CD78035003F73DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FEBD211CD78036003F73DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FEBD2A1CD78036003F73DB /* Nginx_Rewrite_generatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FEBD2C1CD78036003F73DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FEBD351CD78036003F73DB /* Nginx_Rewrite_generatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7FEBD271CD78036003F73DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7FEBD131CD78035003F73DB /* Nginx Rewrite generator */;
+			targetProxy = A7FEBD261CD78036003F73DB /* PBXContainerItemProxy */;
+		};
+		A7FEBD321CD78036003F73DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7FEBD131CD78035003F73DB /* Nginx Rewrite generator */;
+			targetProxy = A7FEBD311CD78036003F73DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7FEBD1D1CD78035003F73DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FEBD1E1CD78035003F73DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7FEBD371CD78036003F73DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7FEBD381CD78036003F73DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7FEBD3A1CD78036003F73DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nginx Rewrite generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Nginx-Rewrite-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7FEBD3B1CD78036003F73DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nginx Rewrite generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Nginx-Rewrite-generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7FEBD3D1CD78036003F73DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nginx Rewrite generatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Nginx-Rewrite-generatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nginx Rewrite generator.app/Contents/MacOS/Nginx Rewrite generator";
+			};
+			name = Debug;
+		};
+		A7FEBD3E1CD78036003F73DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nginx Rewrite generatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Nginx-Rewrite-generatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nginx Rewrite generator.app/Contents/MacOS/Nginx Rewrite generator";
+			};
+			name = Release;
+		};
+		A7FEBD401CD78036003F73DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nginx Rewrite generatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Nginx-Rewrite-generatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nginx Rewrite generator";
+			};
+			name = Debug;
+		};
+		A7FEBD411CD78036003F73DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nginx Rewrite generatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Nginx-Rewrite-generatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nginx Rewrite generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FEBD0F1CD78035003F73DB /* Build configuration list for PBXProject "Nginx Rewrite generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FEBD371CD78036003F73DB /* Debug */,
+				A7FEBD381CD78036003F73DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FEBD391CD78036003F73DB /* Build configuration list for PBXNativeTarget "Nginx Rewrite generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FEBD3A1CD78036003F73DB /* Debug */,
+				A7FEBD3B1CD78036003F73DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7FEBD3C1CD78036003F73DB /* Build configuration list for PBXNativeTarget "Nginx Rewrite generatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FEBD3D1CD78036003F73DB /* Debug */,
+				A7FEBD3E1CD78036003F73DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7FEBD3F1CD78036003F73DB /* Build configuration list for PBXNativeTarget "Nginx Rewrite generatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FEBD401CD78036003F73DB /* Debug */,
+				A7FEBD411CD78036003F73DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7FEBD0C1CD78035003F73DB /* Project object */;
+}
